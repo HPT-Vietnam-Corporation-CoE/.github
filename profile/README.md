@@ -2,35 +2,42 @@
   <img src="../images/background.png" alt="HPT Vietnam Corporation CoE Banner" width="100%" />
 </p>
 
-# HPT Vietnam Corporation CoE
+<h1 align="center">HPT Vietnam Corporation CoE</h1>
+<p align="center"><strong>Internal Hub for AI, Data, and Engineering Collaboration</strong></p>
 
-Chào mừng bạn đến với không gian lưu trữ mã nguồn và tài liệu nội bộ của CoE tại HPT.
+<p align="center">
+  <img src="https://img.shields.io/badge/Focus-AI%2FML-0A66C2?style=flat-square" alt="Focus AI and ML" />
+  <img src="https://img.shields.io/badge/Domain-Data%20Platform-1B5E20?style=flat-square" alt="Domain Data Platform" />
+  <img src="https://img.shields.io/badge/Practice-MLOps-6A1B9A?style=flat-square" alt="Practice MLOps" />
+</p>
 
-Tổ chức GitHub này được xây dựng để quản lý mã nguồn dự án, lưu trữ các thử nghiệm công nghệ và hỗ trợ thành viên cộng tác, chia sẻ tài nguyên kỹ thuật hiệu quả.
+## Tổng Quan
+
+Chào mừng bạn đến với không gian lưu trữ mã nguồn và tài liệu nội bộ của CoE tại HPT.  
+Tổ chức GitHub này được xây dựng để quản lý dự án, lưu trữ thử nghiệm công nghệ và hỗ trợ cộng tác kỹ thuật hiệu quả giữa các thành viên.
 
 ## Hoạt Động Chính
 
 - Nghiên cứu, phát triển và thử nghiệm các giải pháp công nghệ mới cho bài toán nội bộ và dự án thực tế.
-- Tập trung vào Trí tuệ nhân tạo (AI), Machine Learning.
-- Lưu trữ tập trung tài liệu thiết kế hệ thống, kịch bản triển khai và mã nguồn của đội ngũ.
+- Tập trung vào Trí tuệ nhân tạo (AI), Machine Learning và nền tảng dữ liệu.
+- Chuẩn hóa tài liệu thiết kế hệ thống, kịch bản triển khai và mã nguồn của đội ngũ.
 
-## Công Nghệ Và Framework Đang Sử Dụng
+## Trọng Tâm Kỹ Thuật
 
-Một vài trọng tâm nổi bật của team:
+- **LLM, RAG và ML nâng cao:** Fine-tuning, Quantization (INT8/INT4), tối ưu hiệu năng và đánh giá chất lượng RAG.
+- **Data Engineering và MLOps:** Spark, Airflow, Kafka, Delta Lake; MLflow, BentoML, Docker, Kubernetes.
+- **Nền tảng dữ liệu và quan sát hệ thống:** Vector Database, Feature Store/Model Registry, Prometheus, Grafana, ELK.
+- **Data Governance và kiến thức nền tảng:** Data Lineage, PII Detection/Anonymization, Graph Theory, Game Theory, Data Valuation.
 
-- **LLM & RAG + ML nâng cao:** Fine-tuning, Quantization (INT8/INT4), tối ưu và đánh giá RAG.
-- **Data Engineering & MLOps:** Spark, Airflow, Kafka, Delta Lake; MLflow, BentoML, Docker, Kubernetes.
-- **Nền tảng dữ liệu & quan sát hệ thống:** Vector Database, Feature Store/Model Registry, Prometheus, Grafana, ELK.
-- **Data Governance & kiến thức nền tảng:** Data Lineage, PII Detection/Anonymization, Graph Theory, Game Theory, Data Valuation.
+## Quy Chuẩn Cộng Tác
 
-## Hướng Dẫn Dành Cho Thành Viên
+| Chủ đề | Quy định |
+|---|---|
+| Bảo mật | Không hardcode hoặc đẩy thông tin nhạy cảm (API keys, credentials, dữ liệu thật của công ty/khách hàng) lên repository. Khuyến khích dùng biến môi trường (`.env`). |
+| Tổ chức repository | Đặt tên repo ngắn gọn, rõ nghĩa. Mỗi repository cần có `README.md` hướng dẫn cài đặt môi trường và cách chạy dự án. |
+| Quy trình làm việc | Tạo branch riêng cho từng tính năng hoặc lỗi cần sửa. Luôn mở Pull Request (PR) và nhờ thành viên khác review trước khi merge vào nhánh chính. |
 
-Để đảm bảo quy trình làm việc hiệu quả và an toàn, vui lòng tuân thủ các nguyên tắc sau:
+## Thành Viên Mới
 
-1. **Bảo mật:** Tuyệt đối không hardcode hoặc đẩy thông tin nhạy cảm (API keys, credentials, dữ liệu thật của công ty/khách hàng) lên repository. Khuyến khích sử dụng biến môi trường (`.env`).
-2. **Tổ chức repository:** Đặt tên repo ngắn gọn, rõ nghĩa. Mỗi repository cần có file `README.md` hướng dẫn cách cài đặt môi trường và chạy dự án.
-3. **Quy trình làm việc:** Tạo branch riêng cho từng tính năng hoặc lỗi cần sửa. Luôn mở Pull Request (PR) và nhờ thành viên khác review trước khi merge vào nhánh chính.
-
----
-*Thành viên mới cần quyền truy cập vào các repository cụ thể vui lòng liên hệ trực tiếp team qua group chat nội bộ.*
+Thành viên mới cần quyền truy cập vào các repository cụ thể vui lòng liên hệ trực tiếp team qua group chat nội bộ.
 
