@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="../images/background.png" alt="HPT Vietnam Corporation CoE Banner" width="100%" />
+</p>
+
 # HPT Vietnam Corporation CoE
 
 Chào mừng bạn đến với không gian lưu trữ mã nguồn và tài liệu nội bộ của CoE tại HPT.
@@ -12,11 +16,12 @@ Tổ chức GitHub này được xây dựng để quản lý mã nguồn dự �
 
 ## Công Nghệ Và Framework Đang Sử Dụng
 
-Team đang làm việc và liên tục mở rộng năng lực với các công cụ/nền tảng sau:
+Một vài trọng tâm nổi bật của team:
 
-- **AI/ML Frameworks:** PyTorch, MLX.
-- **LLM & APIs:** Tích hợp API từ Google, Mistral; sử dụng công cụ theo dõi mô hình như Langfuse.
-- **Xử lý giọng nói & dữ liệu:** Các mô hình xử lý âm thanh (như CosyVoice) và pipeline xử lý dữ liệu tự động.
+- **LLM & RAG + ML nâng cao:** Fine-tuning, Quantization (INT8/INT4), tối ưu và đánh giá RAG.
+- **Data Engineering & MLOps:** Spark, Airflow, Kafka, Delta Lake; MLflow, BentoML, Docker, Kubernetes.
+- **Nền tảng dữ liệu & quan sát hệ thống:** Vector Database, Feature Store/Model Registry, Prometheus, Grafana, ELK.
+- **Data Governance & kiến thức nền tảng:** Data Lineage, PII Detection/Anonymization, Graph Theory, Game Theory, Data Valuation.
 
 ## Hướng Dẫn Dành Cho Thành Viên
 
@@ -28,3 +33,4 @@ Team đang làm việc và liên tục mở rộng năng lực với các công 
 
 ---
 *Thành viên mới cần quyền truy cập vào các repository cụ thể vui lòng liên hệ trực tiếp team qua group chat nội bộ.*
+
